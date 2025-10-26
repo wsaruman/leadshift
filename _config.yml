@@ -1,0 +1,18 @@
+# Minimal Configuration for GitHub Pages
+title: leadshift blog
+email: eitan.ran@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A new blog consisting of insights and reflections on engineering leadership, driving change, and transforming teams. Strategies, stories, and lessons from building high-performing engineering organizations.
+baseurl: "/leadshift" # the subpath of your site, e.g. /blog
+url: "https://wsaruman.github.io" # the base hostname & protocol for your site
+
+# Theme setup for GitHub Pages
+remote_theme: jekyll/minima
+
+# Exclude files from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
