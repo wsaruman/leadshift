@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+gem "jekyll", "~> 5.0"
+gem "webrick", "~> 1.8"
+gem "minima"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"

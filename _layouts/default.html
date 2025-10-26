@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {{ site.seo }}
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <hr>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <hr>
+      <p>© {{ site.title }} {{ site.time | date: "%Y" }}</p>
+    </footer>
+  </body>
+</html>
