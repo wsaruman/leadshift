@@ -1,13 +1,21 @@
 # Minimal Configuration for GitHub Pages
-title: leadshift blog
-email: eitan.ran@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A new blog consisting of insights and reflections on engineering leadership, driving change, and transforming teams. Strategies, stories, and lessons from building high-performing engineering organizations.
-baseurl: "/leadshift" # the subpath of your site, e.g. /blog
-url: "https://wsaruman.github.io" # the base hostname & protocol for your site
+title: Lead Shift
+description: Insights on engineering leadership, change, and transformation.
+baseurl: "" # leave empty if hosted at username.github.io/repo-name
+url: "https://wsaruman.github.io" # replace with your GitHub Pages URL
 
 # Theme setup for GitHub Pages
 remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+# Optional for drafts
+show_drafts: true # enable only in dev environment if using drafts
 
 # Exclude files from processing
 exclude:
